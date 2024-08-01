@@ -23,15 +23,6 @@ const InputField: React.FC<InputFieldProps> = ({
   </div>
 );
 
-const initialRegisterForm = {
-  firstName: "",
-  lastName: "",
-  email: "",
-  phone: "",
-  password: "",
-  confirmPassword: "",
-};
-
 export default function RegisterForm() {
 
   const onSubmit = async (e: any) => {
