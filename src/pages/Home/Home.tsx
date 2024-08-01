@@ -4,7 +4,7 @@ import { Card } from "./components/Card";
 import Stage from "./components/Stage";
 export default function Home() {
   return (
-    <div className="pb-10 bg-[url('./background.svg')] bg-no-repeat bg-cover font-Quicksand">
+    <div className="pb-10 bg-[url('../background.svg')] bg-no-repeat bg-cover font-Quicksand">
 
       {/* welcome section */}
       <section className="h-screen w-full">
