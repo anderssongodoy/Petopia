@@ -38,7 +38,7 @@ const PetInfo: React.FC<PetInfoProps> = ({
 }) => {
   
 
-  const qrUrl = `https://s16-13-n-csharp-react.vercel.app/qr?id=${id}`
+  const qrUrl = `https://s16-13-n-csharp-react-kappa.vercel.app//qr?id=${id}`
 
   return (
     <div className="w-full max-w-[500px] bg-[#F9FCFA] rounded-[25px] custom-box-shadow p-[20px] sm:p-[40px] flex flex-col">
