@@ -33,7 +33,6 @@ const initialRegisterForm = {
 };
 
 export default function RegisterForm() {
-  const [registerForm, setRegisterForm] = useState(initialRegisterForm);
 
   const onSubmit = async (e: any) => {
     e.preventDefault();
